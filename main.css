@@ -1,0 +1,122 @@
+body {
+    font-family: roboto, sans-serif;
+    margin: 0;
+}
+
+.logo {
+    position: fixed;
+    z-index: 10;
+    width: 36px;
+    left: 26px;
+    top: 20px;
+}
+
+.endbase {
+    position: absolute;
+    width: 100%;
+    height: 125px;
+    background: white;
+    top: 99.5%;
+    border-radius: 0px 0px 0px 0px
+}
+
+.navigation {
+    position: absolute;
+    z-index: 50;
+    overflow: hidden;
+    white-space: normal;
+    display: inline;
+}
+
+.navigation > img {
+    white-space: nowrap
+}
+
+.button {
+    position: absolute;
+    font-weight: 400;
+    font-size: 14px;
+    color: white;
+    bottom: 9px;
+    right: 12px;
+    padding-right: 38px;
+    padding-left: 19px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    border-radius: 50px;
+}
+
+.button:active {
+    background: rgba(255, 255, 255, 0.3);
+}
+
+.buttonicon {
+    position: absolute;
+    width: 14px;
+    top: 570px;
+    right: 23px
+}
+
+.navitem {
+    font-size: 14px;
+    font-weight: 400;
+    position: absolute;
+    right: 61%;
+    ;
+    z-index: 10;
+    top: 6px;
+    color: white;
+    padding-left: 7px;
+    padding-right: 7px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    border-radius: 50px;
+}
+
+.navitem:active {
+    background: rgba(255, 255, 255, 0.3);
+}
+
+.navindicator {
+    width: 52px;
+    height: 1.7px;
+    background: white;
+    z-index: 15;
+    position: absolute;
+    right: 217px;
+    top: 57px;
+}
+
+.placegrid {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: green;
+}
+
+.adunit {
+    position: absolute;
+    top: 484px;
+    left: 5%;
+    border-radius: 6px;
+}
+
+.walltext {
+    position: absolute;
+    z-index: 10;
+    font-weight: 400;
+    color: white;
+    top: 530px;
+    font-size: 21px;
+    left: 25px;
+}
+
+.wallsubtext {
+    position: absolute;
+    top: 567px;
+    font-size: 12px;
+    font-weight: 400;
+    left: 25px;
+    color: white;
+    font-weight: 300;
+}
